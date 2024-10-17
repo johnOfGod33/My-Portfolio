@@ -6,7 +6,6 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" Component={Home} />
-        <Route path="/github" element={"https://github.com/johnOfGod33"} />
       </Routes>
     </BrowserRouter>
   );
